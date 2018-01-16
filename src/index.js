@@ -25,6 +25,9 @@ let render = () => {
 };
 
 if (process.env.NODE_ENV !== "production") {
+  var registerObserver = require('react-perf-devtool')
+  registerObserver();  // react-perf-devtool
+  
   if (module.hot) {
     // Support hot reloading of components.
     // Whenever the App component file or one of its dependencies
