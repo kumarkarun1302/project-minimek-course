@@ -23,10 +23,6 @@ export default class TabBarContainer extends Component {
     const { tabs, ...otherProps } = this.props;
     const { currentTab } = this.state;
 
-    return (<TabBar 
-      {...otherProps}
-      currentTab={currentTab}
-      onTabClick={this.onTabClick}
-      tabs={tabs} />);
+    return <TabBar {...otherProps} currentTab={currentTab} onTabClick={this.onTabClick} tabs={tabs} />;
   }
 }
