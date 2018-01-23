@@ -12,3 +12,5 @@ This is a miniature version of the [MekHQ](http://megamek.info/mekhq) Battletech
 - Organize the pilots and their mechs into "lances" of four mechs, and the "lances" into a "company" of three lances.
 - Add and remove pilots and mechs from the force
 - Save the force back out to JSON
+
+Go back to the next to last commit to the most recent working part of the app.
